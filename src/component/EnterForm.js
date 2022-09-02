@@ -75,7 +75,6 @@ const [company,setcompany]=useState("");
                     <input type="text"   placeholder='Contact' onChange={changecontact}  value={contact}   className="dbDrpdown"  style={{float:"left",width:"190px"}} />
                     <input type="text"    placeholder='Country'  onChange={changecountry} value={country}   className="dbDrpdown"  style={{float:"left",width:"190px"}} />
                     <input type="submit" className="btnSubmit" value="Submit" id="btnSubmit" />
-                      <label htmlFor="">this is form</label> 
                     <h6 style={{color:'red',height:'10px'}}>{messagered}</h6>
                     <h6 style={{color:'blue',height:'10px'}}>{messagesucces}</h6>
 
